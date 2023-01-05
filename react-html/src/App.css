@@ -1,0 +1,35 @@
+.container {
+  grid-template-columns: 1fr 1fr;
+  display: flex;
+  column-gap: 180px;
+}
+.imagem {
+  margin-left: 37px;
+}
+
+.formulario {
+  align-self: center;
+  padding: 29px;
+  border: 2px solid;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+form {
+  display: grid;
+}
+
+input {
+  padding: 6px;
+}
+
+.botao {
+  margin-top: 6px;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  background-color: #2196f3;
+}
